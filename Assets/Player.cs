@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -13,28 +11,21 @@ public class Player : MonoBehaviour
     private int currentHealth;
     private Rigidbody2D rb;
     private bool isGrounded;
+    private bool facingRight = true;
+    private Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         currentHealth = maxHealth;
     }
 
     void Update()
     {
-        Move();
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            Jump();
-        }
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Shoot();
-        }
-    }
-
-    void Move()
-    {
+        bool isWalking = Input.GetAxis("Horizontal") != 0;
+        animator.SetBool("IsWalking", isWalking);
+        
         float move = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(move * speed, rb.velocity.y);
 
@@ -42,6 +33,29 @@ public class Player : MonoBehaviour
         {
             rb.velocity = new Vector2(move * speed * runMultiplier, rb.velocity.y);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            Jump();
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
+
+        if (move > 0 && !facingRight || move < 0 && facingRight)
+        {
+            Flip();
+        }
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 
     void Jump()
@@ -68,7 +82,7 @@ public class Player : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            // Handle player death
+            // Tratar morte do jogador
         }
     }
 }

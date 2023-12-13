@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5064a2cf575a8824e86cca782610aff2
+guid: bb2669ed2d6aa2f48aff957c703a0615
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,169 +110,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_0
+      name: image-fococlipping-standard (1)_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 260
-        width: 105
-        height: 224
+        x: 0
+        y: 176
+        width: 96
+        height: 142
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1854524501045449aaedf1d2d110db1
-      internalID: -1041316583
+      spriteID: 4c69ceac454f0214bbbf5a277e1778e1
+      internalID: -1351471176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_1
+      name: image-fococlipping-standard (1)_1
       rect:
         serializedVersion: 2
-        x: 133
-        y: 262
-        width: 112
-        height: 228
+        x: 0
+        y: 313
+        width: 92
+        height: 187
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00e50a18e2edba4fa6c73bb3bce91ae
-      internalID: 534531529
+      spriteID: 1e3f5d6e4d1db4b4ebd7d6205df1202f
+      internalID: -1079662262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_2
+      name: image-fococlipping-standard (1)_2
       rect:
         serializedVersion: 2
-        x: 258
-        y: 264
-        width: 120
-        height: 226
+        x: 98
+        y: 318
+        width: 118
+        height: 182
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5099430657020b478e9a8956cf24a77
-      internalID: 1842777234
+      spriteID: 0519c73e406464145a8c70ccff8d1e3b
+      internalID: 576549714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_3
+      name: image-fococlipping-standard (1)_3
       rect:
         serializedVersion: 2
-        x: 391
-        y: 261
-        width: 87
-        height: 227
+        x: 115
+        y: 177
+        width: 115
+        height: 141
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003605ca756cc9143bac7c53db727da6
-      internalID: 845015749
+      spriteID: c8220dd699579984b83d0835eae0dcfa
+      internalID: 1512084204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_4
+      name: image-fococlipping-standard (1)_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 8
-        width: 105
-        height: 227
+        x: 227
+        y: 304
+        width: 141
+        height: 188
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11cb30a0c927f2c4a886a0f50226fd0d
-      internalID: -1049760325
+      spriteID: 89dba8af15c15244c9af1fc306ad6427
+      internalID: 108170453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_5
+      name: image-fococlipping-standard (1)_6
       rect:
         serializedVersion: 2
-        x: 112
-        y: 10
-        width: 103
-        height: 225
+        x: 363
+        y: 326
+        width: 137
+        height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4b70e513f4a3446bbe751c428503c8
-      internalID: -1576614926
+      spriteID: 8ba88c983594d774baeeadf155b5b59c
+      internalID: 2115063809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_6
+      name: image-fococlipping-standard (1)_11
       rect:
         serializedVersion: 2
-        x: 217
-        y: 11
-        width: 143
-        height: 224
+        x: 0
+        y: 0
+        width: 92
+        height: 175
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 742e6a6c38ed29a41b89f4f7bb052e2c
-      internalID: 1644124750
+      spriteID: 40b81331ec7c8f34eb86bb2e33e15a4f
+      internalID: 245992879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: imagem_2023-12-10_215158349-removebg-preview_7
+      name: image-fococlipping-standard (1)_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 93
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f189dddb90ac44ca10d1ce8557c100
+      internalID: -1776926192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-fococlipping-standard (1)_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 102
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018a20bda122eb48a73767e06198a5e
+      internalID: -1705917649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-fococlipping-standard (1)_14
       rect:
         serializedVersion: 2
         x: 359
-        y: 11
-        width: 138
-        height: 210
+        y: 96
+        width: 130
+        height: 197
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b971a98e2bf164e81299328fb79305
-      internalID: -2107043741
+      spriteID: 51e65a710b6fc83418c6c54a1cb0bba6
+      internalID: 1234179709
       vertices: []
       indices: 
       edges: []
@@ -301,14 +330,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      imagem_2023-12-10_215158349-removebg-preview_0: -1041316583
-      imagem_2023-12-10_215158349-removebg-preview_1: 534531529
-      imagem_2023-12-10_215158349-removebg-preview_2: 1842777234
-      imagem_2023-12-10_215158349-removebg-preview_3: 845015749
-      imagem_2023-12-10_215158349-removebg-preview_4: -1049760325
-      imagem_2023-12-10_215158349-removebg-preview_5: -1576614926
-      imagem_2023-12-10_215158349-removebg-preview_6: 1644124750
-      imagem_2023-12-10_215158349-removebg-preview_7: -2107043741
+      image-fococlipping-standard (1)_0: -1351471176
+      image-fococlipping-standard (1)_1: -1079662262
+      image-fococlipping-standard (1)_10: 1184327719
+      image-fococlipping-standard (1)_11: 245992879
+      image-fococlipping-standard (1)_12: -1776926192
+      image-fococlipping-standard (1)_13: -1705917649
+      image-fococlipping-standard (1)_14: 1234179709
+      image-fococlipping-standard (1)_15: -571792714
+      image-fococlipping-standard (1)_2: 576549714
+      image-fococlipping-standard (1)_3: 1512084204
+      image-fococlipping-standard (1)_4: -1455595939
+      image-fococlipping-standard (1)_5: 108170453
+      image-fococlipping-standard (1)_6: 2115063809
+      image-fococlipping-standard (1)_7: 915039264
+      image-fococlipping-standard (1)_8: -842485989
+      image-fococlipping-standard (1)_9: -968830102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
