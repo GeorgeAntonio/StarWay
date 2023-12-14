@@ -23,31 +23,55 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        bool isWalking = Input.GetAxis("Horizontal") != 0;
-        animator.SetBool("IsWalking", isWalking);
-        
         float move = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(move * speed, rb.velocity.y);
+        bool isWalking = move != 0;
+        bool isRunning = isWalking && Input.GetKey(KeyCode.LeftShift);
+        bool isShooting = Input.GetButtonDown("Fire1");
+        bool isJumping = Input.GetKeyDown(KeyCode.Space) && isGrounded;
+        bool isJumpingUpward = isJumping && move == 0;
+        bool isJumpingForward = isJumping && move != 0;
 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            rb.velocity = new Vector2(move * speed * runMultiplier, rb.velocity.y);
-        }
+        // Atualizar o Animator
+        animator.SetBool("IsWalking", isWalking);
+        animator.SetBool("IsRunning", isRunning);
+        animator.SetBool("IsShooting", isShooting);
+        animator.SetBool("IsJumpingUpward", isJumpingUpward);
+        animator.SetBool("IsJumpingForward", isJumpingForward);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        // Movimento horizontal
+        rb.velocity = new Vector2(move * (isRunning ? speed * runMultiplier : speed), rb.velocity.y);
+
+        // Pular
+        if (isJumping)
         {
             Jump();
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        // Atirar
+        if (isShooting)
         {
             Shoot();
         }
 
+        // Virar o sprite, se necessário
         if (move > 0 && !facingRight || move < 0 && facingRight)
         {
             Flip();
         }
+    }
+
+    void Jump()
+    {
+        rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+        isGrounded = false;
+        animator.SetBool("IsJumpingUpward", false);
+        animator.SetBool("IsJumpingForward", false);
+    }
+
+    void Shoot()
+    {
+        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        animator.SetBool("IsShooting", false);
     }
 
     void Flip()
@@ -56,17 +80,6 @@ public class Player : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-    }
-
-    void Jump()
-    {
-        rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-        isGrounded = false;
-    }
-
-    void Shoot()
-    {
-        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
