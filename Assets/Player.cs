@@ -28,15 +28,11 @@ public class Player : MonoBehaviour
         bool isRunning = isWalking && Input.GetKey(KeyCode.LeftShift);
         bool isShooting = Input.GetButtonDown("Fire1");
         bool isJumping = Input.GetKeyDown(KeyCode.Space) && isGrounded;
-        bool isJumpingUpward = isJumping && move == 0;
-        bool isJumpingForward = isJumping && move != 0;
 
         // Atualizar o Animator
         animator.SetBool("IsWalking", isWalking);
         animator.SetBool("IsRunning", isRunning);
         animator.SetBool("IsShooting", isShooting);
-        animator.SetBool("IsJumpingUpward", isJumpingUpward);
-        animator.SetBool("IsJumpingForward", isJumpingForward);
 
         // Movimento horizontal
         rb.velocity = new Vector2(move * (isRunning ? speed * runMultiplier : speed), rb.velocity.y);
@@ -44,7 +40,7 @@ public class Player : MonoBehaviour
         // Pular
         if (isJumping)
         {
-            Jump();
+            Jump(move);
         }
 
         // Atirar
@@ -60,12 +56,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Jump()
+    void Jump(float move)
     {
         rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         isGrounded = false;
-        animator.SetBool("IsJumpingUpward", false);
-        animator.SetBool("IsJumpingForward", false);
+
+        bool isJumpingUpward = move == 0;
+        bool isJumpingForward = move != 0;
+
+        animator.SetBool("IsJumpingUpward", isJumpingUpward);
+        animator.SetBool("IsJumpingForward", isJumpingForward);
     }
 
     void Shoot()
