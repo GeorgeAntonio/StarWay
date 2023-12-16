@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     public int maxHealth = 100;
-    private int currentHealth;
+    private int currentHealth = 100;
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool facingRight = true;
@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        //Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
         animator.SetBool("IsShooting", false);
     }
 

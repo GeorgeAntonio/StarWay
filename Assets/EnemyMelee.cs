@@ -18,12 +18,22 @@ public class EnemyMelee : MonoBehaviour
     private Vector2 patrolPointA;
     private Vector2 patrolPointB;
     private Vector2 nextPatrolPoint;
+    private Animator animator;
+    private bool facingRight = true;
+    public float attackCooldown = 2.0f;  // Tempo de espera entre os ataques
+    public float knockbackForce = 5.0f;  // Força do knockback
+    private float lastAttackTime = 0;
+    public AudioClip huntingSound;  // O clipe de áudio para caça
+    private AudioSource audioSource;  // Componente AudioSource
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
         currentHealth = maxHealth;
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         // Define patrol points based on current position
         patrolPointA = transform.position;
@@ -52,7 +62,9 @@ public class EnemyMelee : MonoBehaviour
     void Patrol()
     {
         transform.position = Vector2.MoveTowards(transform.position, nextPatrolPoint, patrolSpeed * Time.deltaTime);
-
+        CheckFlip(nextPatrolPoint.x - transform.position.x);
+        animator.SetBool("IsWalking", true);
+        animator.SetBool("IsHunting", false);
         if (Vector2.Distance(transform.position, nextPatrolPoint) < 0.1f)
         {
             if (nextPatrolPoint == patrolPointA)
@@ -69,10 +81,16 @@ public class EnemyMelee : MonoBehaviour
     void ChasePlayer()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, chaseSpeed * Time.deltaTime);
-
+        CheckFlip(player.transform.position.x - transform.position.x);
+        animator.SetBool("IsWalking", false);
+        animator.SetBool("IsHunting", true);
         if (player.transform.position.y > transform.position.y + 1f && isGrounded)
         {
             Jump();
+        }
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(huntingSound);
         }
     }
 
@@ -81,10 +99,31 @@ public class EnemyMelee : MonoBehaviour
         rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         isGrounded = false;
     }
+    void CheckFlip(float horizontalMove)
+    {
+        if (horizontalMove > 0 && !facingRight || horizontalMove < 0 && facingRight)
+        {
+            Flip();
+        }
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
 
     void AttackPlayer()
     {
-        // Attack logic (e.g., reduce player health) goes here
+        // Aplicar dano ao jogador
+        player.GetComponent<Player>().TakeDamage(damage);
+
+        // Aplicar knockback
+        Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
+        Vector2 knockbackDirection = (player.transform.position - transform.position).normalized;
+        playerRb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -96,7 +135,11 @@ public class EnemyMelee : MonoBehaviour
 
         if (collision.gameObject == player)
         {
-            player.GetComponent<Player>().TakeDamage(damage);
+            if (Time.time >= lastAttackTime + attackCooldown)
+            {
+                AttackPlayer(); // Chamada ajustada
+                lastAttackTime = Time.time;
+            }
         }
     }
 
