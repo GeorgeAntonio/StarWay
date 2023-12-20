@@ -54,6 +54,11 @@ public class Player : MonoBehaviour
         {
             Flip();
         }
+        if (isGrounded)
+        {
+            animator.SetBool("IsJumpingUpward", false);
+            animator.SetBool("IsJumpingForward", false);
+        }
     }
 
     void Jump(float move)
@@ -70,7 +75,7 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        //Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
         animator.SetBool("IsShooting", false);
     }
 

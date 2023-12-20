@@ -141,6 +141,17 @@ public class EnemyMelee : MonoBehaviour
                 lastAttackTime = Time.time;
             }
         }
+        if (collision.gameObject.CompareTag("Bullet"))
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            BulletScript bullet = collision.gameObject.GetComponent<BulletScript>();
+            if (bullet != null)
+            {
+                TakeDamage(bullet.damage); // Aqui você acessa a propriedade pública Damage
+            }
+
+            Destroy(collision.gameObject);
+        }
     }
 
     public void TakeDamage(int damage)
