@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,9 +106,526 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: solo-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 458
+        width: 75
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a602f79b172e45aeac7d18cd6706f
+      internalID: 242309675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 459
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618e64a0d7797e4a9dff46f3d7277bc
+      internalID: -146770618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 458
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa7eaa38a9f0f4b8fc76f60a28904d
+      internalID: -81134149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 458
+        width: 76
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ade372a1acaf0d4091198acab3348cc
+      internalID: -186799714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 458
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd663c42364f8b4b8bc35074503205a
+      internalID: 1477633532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 459
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7079a1ee4d3286948b86a530509cf6b5
+      internalID: -537757894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189de402b4489d24291cf165bcfa54b8
+      internalID: -2016598873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 395
+        width: 425
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da12683fb094d4eb36aebcf2fae434
+      internalID: -1019320808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 345
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba61e526fa7445345b3ab41820a13fd9
+      internalID: 584714547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 345
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667daaa3638352e4894e064ca8a326bd
+      internalID: -252756822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 345
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a43d9721f6a874c9a2e6aeb38c3565
+      internalID: 1564407574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 345
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7100d8c1ab76141ac6f6f3c4ef6a7d
+      internalID: 1244017127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 345
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4158f044e89fe534b82f5578ba43277a
+      internalID: -112452130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 260
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07cde4038bb7b64e983230656c55095
+      internalID: 1733330124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 345
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678c322dc24d7247adc2118aced1253
+      internalID: -377668648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 133
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b8ef4c3c5101439ec49f2d5a33b2f
+      internalID: 2056976986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 260
+        width: 226
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367a597e53e92344396eed837cf77e0e
+      internalID: -72752510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 232
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5536bcad327e8984cb310cc7eb947b58
+      internalID: 1619246528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 140
+        width: 204
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010e54dc8dcd874c95129cb466ff2c5
+      internalID: 994470903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 140
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07407731e8c0e747ba24ab3578e9533
+      internalID: -333691131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb76cc288326e248acb4439eaa5b491
+      internalID: -766897802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 30
+        width: 160
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f805dae60c7e24c887ba524e155fba
+      internalID: -1912903212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 30
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c27cdd6d233f24bbb833ac07e951a0
+      internalID: 1526884653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solo-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 30
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039ee433800db04e856e7527eef5ccd
+      internalID: 262956507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +636,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      solo-removebg-preview_0: 242309675
+      solo-removebg-preview_1: -146770618
+      solo-removebg-preview_10: 1564407574
+      solo-removebg-preview_11: 1244017127
+      solo-removebg-preview_12: -112452130
+      solo-removebg-preview_13: 1733330124
+      solo-removebg-preview_14: -377668648
+      solo-removebg-preview_15: 2056976986
+      solo-removebg-preview_16: -72752510
+      solo-removebg-preview_17: 1619246528
+      solo-removebg-preview_18: 994470903
+      solo-removebg-preview_19: -333691131
+      solo-removebg-preview_2: -81134149
+      solo-removebg-preview_20: -766897802
+      solo-removebg-preview_21: -1912903212
+      solo-removebg-preview_22: 1526884653
+      solo-removebg-preview_23: 262956507
+      solo-removebg-preview_3: -186799714
+      solo-removebg-preview_4: 1477633532
+      solo-removebg-preview_5: -537757894
+      solo-removebg-preview_6: -2016598873
+      solo-removebg-preview_7: -1019320808
+      solo-removebg-preview_8: 584714547
+      solo-removebg-preview_9: -252756822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

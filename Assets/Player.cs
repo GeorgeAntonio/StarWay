@@ -13,12 +13,17 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private bool facingRight = true;
     private Animator animator;
+    private LevelCompleteManager levelCompleteManager;
+    public AudioClip shootingSound;
+    private AudioSource audioSource;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
+        levelCompleteManager = FindObjectOfType<LevelCompleteManager>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -73,18 +78,28 @@ public class Player : MonoBehaviour
         animator.SetBool("IsJumpingForward", isJumpingForward);
     }
 
-    void Shoot()
-    {
-        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
-        animator.SetBool("IsShooting", false);
-    }
-
     void Flip()
     {
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+
+        // Inverte a direção do bulletSpawn quando o jogador vira
+        bulletSpawn.Rotate(0f, 180f, 0f);
+    }
+
+    void Shoot()
+    {
+        // Verifica a última direção que o jogador estava voltado e ajusta o bulletSpawn antes de atirar
+        if ((facingRight && bulletSpawn.eulerAngles.y > 0f) || (!facingRight && bulletSpawn.eulerAngles.y == 0f))
+        {
+            bulletSpawn.Rotate(0f, 180f, 0f);
+        }
+
+        Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        //animator.SetBool("IsShooting", false);
+        audioSource.PlayOneShot(shootingSound);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -101,6 +116,24 @@ public class Player : MonoBehaviour
         if (currentHealth <= 0)
         {
             // Tratar morte do jogador
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Die method called.");
+        // Desativa o jogador ou qualquer outra lógica de morte
+        gameObject.SetActive(false);
+
+        // Chama o método no LevelCompleteManager para mostrar o painel de habitabilidade como 0%
+        if (levelCompleteManager != null)
+        {
+            levelCompleteManager.PlayerDied();
+        }
+        else
+        {
+            Debug.LogError("LevelCompleteManager not found.");
         }
     }
 }

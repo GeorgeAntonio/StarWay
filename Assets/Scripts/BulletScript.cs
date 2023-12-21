@@ -21,17 +21,20 @@ public class BulletScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Se a bala colidir com qualquer coisa que não seja o jogador, ela se destruirá.
-        // Se você também quiser excluir outros objetos além do jogador, adicione condições adicionais aqui.
         if (!collision.collider.CompareTag("Player"))
         {
             // Se a bala atingir o inimigo, cause dano
-            if (collision.collider.CompareTag("Enemy"))
+            if (collision.collider.CompareTag("Enemy") || collision.collider.CompareTag("Boss")) // Adicionada verificação para "Boss"
             {
-                // Acessa o script EnemyMelee do objeto que a bala atingiu e chama o método TakeDamage
-                EnemyMelee enemy = collision.collider.GetComponent<EnemyMelee>();
+                var enemy = collision.collider.GetComponent<EnemyMelee>(); // Isso pode ser um problema se o boss não tiver o script EnemyMelee
+                var boss = collision.collider.GetComponent<Boss>(); // Adicione esta linha se o boss tiver um script diferente
                 if (enemy != null)
                 {
                     enemy.TakeDamage(damage);
+                }
+                else if (boss != null) // E esta condicional
+                {
+                    boss.TakeDamage(damage); // Chama TakeDamage no boss
                 }
             }
 

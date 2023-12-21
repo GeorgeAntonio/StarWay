@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,9 +106,799 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022cfd0871858b44dba4800718fb980c
+      internalID: -981413505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 156
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5783bc0c61ab4e14b8a6d34800dc6369
+      internalID: 1837500272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 423
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7421644758f481459518b235da14537
+      internalID: -338069481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 423
+        width: 97
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dcd32308a5aa240a33efc0cfc4a9d6
+      internalID: -1289692513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 423
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319a2b5bcde0ea42b262ec9304c107e
+      internalID: -905859427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 423
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b56d23fca8df54cac9a78171c911c4
+      internalID: 74224964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 423
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616bb08192317ba4b96ebf58bcd475cb
+      internalID: -1542698661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 423
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b150763a5d179f43b83914e708b7594
+      internalID: 1564179452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 423
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e2d67ffd7211547bca7b271279b68f
+      internalID: -2042765552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbb6cf2012ea004baf6e6cdcb2214dd
+      internalID: 4760141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 378
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb988f0600fa9ff40bf972650ab816f6
+      internalID: -272317978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 378
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fce3a7eb286634db145400cf97980e
+      internalID: -1335639017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 378
+        width: 72
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a59fffad6bbb4c8d87219bbe54c51
+      internalID: -1587902947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 378
+        width: 104
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90db59d5c10c44a48a004d9375342074
+      internalID: 1589342222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 278
+        width: 282
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97722eb6cd7e14848a134d19e401205f
+      internalID: 210073959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245a27f220205144d820da1439a69f5d
+      internalID: -970366878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 350
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed896910e6f8bcb47870d67e00babb28
+      internalID: 1657802947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 350
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d72a7b30bb2c0943b80852f92013adb
+      internalID: -958617506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346bc9c9fe0709547a91b685573a98e4
+      internalID: -1676142986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3504fb88979b46c47a5277cd6780e2fa
+      internalID: -414738069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 351
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7214cc8137472b4e922931ec2608e5b
+      internalID: -737920092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 199
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd2d6b113686444ebf98d44f2c47151
+      internalID: -136249246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44301fd3e20b34d4dbaae56c242077fc
+      internalID: 1146607521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 240
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5d579a5500f48409a8db542f802653
+      internalID: 1616091846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 136
+        width: 26
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6b4a0f9ff5f0a4784f242912b2f64b
+      internalID: -297501876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 240
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2809bd7aeb3e9ad41a63708f05b4eac6
+      internalID: 1579598625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_26
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 240
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e489de485649954daaf0f4e7322c8e7
+      internalID: 1293602886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 123
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9eec93fe1ffcf44193e21fd457c0002
+      internalID: -1557379188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_28
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 113
+        width: 155
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571714973047686448533120198ee91f
+      internalID: 718221159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 44
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a954a91a58225d4c9a13e65c482f4d8
+      internalID: 802725067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fae7018a846a5d4d97608114847429d
+      internalID: -387026992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 136
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea66b233e090247a9800ec7881995c
+      internalID: -849094372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 265
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d2c2f9f032e1945846c7e9e391ad43
+      internalID: -1402370554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc440a66dcd3957498225442d6203df0
+      internalID: 1797763881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 11
+        width: 154
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ebaa72eac5b3c47a3326a6e90e1554
+      internalID: 729214065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 11
+        width: 221
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df9271cc48e6de4f996dd6a4cc8242a
+      internalID: -186399152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fauna e Flora (9)_36
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 11
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5602cbdd7d86dbc40a916e411e88a912
+      internalID: 788074535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +909,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fauna e Flora (9)_0: -981413505
+      Fauna e Flora (9)_1: 1837500272
+      Fauna e Flora (9)_10: -272317978
+      Fauna e Flora (9)_11: -1335639017
+      Fauna e Flora (9)_12: -1587902947
+      Fauna e Flora (9)_13: 1589342222
+      Fauna e Flora (9)_14: 210073959
+      Fauna e Flora (9)_15: -970366878
+      Fauna e Flora (9)_16: 1657802947
+      Fauna e Flora (9)_17: -958617506
+      Fauna e Flora (9)_18: -1676142986
+      Fauna e Flora (9)_19: -414738069
+      Fauna e Flora (9)_2: -338069481
+      Fauna e Flora (9)_20: -737920092
+      Fauna e Flora (9)_21: -136249246
+      Fauna e Flora (9)_22: 1146607521
+      Fauna e Flora (9)_23: 1616091846
+      Fauna e Flora (9)_24: -297501876
+      Fauna e Flora (9)_25: 1579598625
+      Fauna e Flora (9)_26: 1293602886
+      Fauna e Flora (9)_27: -1557379188
+      Fauna e Flora (9)_28: 718221159
+      Fauna e Flora (9)_29: 802725067
+      Fauna e Flora (9)_3: -1289692513
+      Fauna e Flora (9)_30: -387026992
+      Fauna e Flora (9)_31: -849094372
+      Fauna e Flora (9)_32: -1402370554
+      Fauna e Flora (9)_33: 1797763881
+      Fauna e Flora (9)_34: 729214065
+      Fauna e Flora (9)_35: -186399152
+      Fauna e Flora (9)_36: 788074535
+      Fauna e Flora (9)_4: -905859427
+      Fauna e Flora (9)_5: 74224964
+      Fauna e Flora (9)_6: -1542698661
+      Fauna e Flora (9)_7: 1564179452
+      Fauna e Flora (9)_8: -2042765552
+      Fauna e Flora (9)_9: 4760141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
