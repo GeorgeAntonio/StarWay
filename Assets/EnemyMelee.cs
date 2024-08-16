@@ -128,6 +128,7 @@ public class EnemyMelee : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Collision detected with: " + collision.gameObject.name);
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
@@ -156,6 +157,7 @@ public class EnemyMelee : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("Enemy Melee current health: " + currentHealth);
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
