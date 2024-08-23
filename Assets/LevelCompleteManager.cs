@@ -10,7 +10,6 @@ public class LevelCompleteManager : MonoBehaviour
     public GameObject panel;                  // Referência ao painel que contém o texto
     public TextMeshProUGUI statusText;       // Referência ao componente TextMeshProUGUI onde o status será exibido
     public string spaceSceneName;            // Nome da sua cena do espaço
-    // Nome da sua cena do espaço
 
     private float habitabilityPercentage;
 
@@ -50,12 +49,13 @@ public class LevelCompleteManager : MonoBehaviour
         // Desativa o script para que o texto não seja atualizado novamente
         this.enabled = false;
     }
-public void PlayerDied()
-{
-    Debug.Log("PlayerDied called. Habitability is 0%.");
-    habitabilityPercentage = 0f;  // Define a habitabilidade para 0%
-    ShowCompletionStatus();
-}
+
+    public void PlayerDied()
+    {
+        Debug.Log("PlayerDied called. Habitability is 0%.");
+        habitabilityPercentage = 0f;  // Define a habitabilidade para 0%
+        ShowCompletionStatus();
+    }
 
     private void ReturnToSpaceScene()
     {

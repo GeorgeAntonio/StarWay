@@ -121,6 +121,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    public int GetCurrentHealth()  // Adicionando este método
+    {
+        return currentHealth;
+    }
+
     private void Die()
     {
         Debug.Log("Die method called.");

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Watah.unity
     guid: 4fdbffaaec8599a479e2d38c398063dc
+  - enabled: 1
+    path: Assets/Scenes/fase 2.unity
+    guid: 4477019e2112042518c423764b8c90e6
+  - enabled: 1
+    path: Assets/Scenes/fase 3.unity
+    guid: 3248f94eef8054989b997ba110610c63
   m_configObjects: {}
