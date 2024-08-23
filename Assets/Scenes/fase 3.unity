@@ -3426,8 +3426,7 @@ MonoBehaviour:
   winUI: {fileID: 0}
   loseUI: {fileID: 0}
   levelScenes:
-  - 
-  - 
+  - Space
 --- !u!4 &1431713627
 Transform:
   m_ObjectHideFlags: 0
